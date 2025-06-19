@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi página web con TailwindCSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans min-h-screen flex flex-col items-center">
+
+  <header class="bg-blue-600 mt-10 p-8 rounded-xl shadow-lg w-full max-w-3xl flex items-center gap-6">
+    <img src="images/fotoCV.png" alt="Foto de perfil" class="rounded-full w-24 h-24 object-cover border-4 border-white" />
+    <div>
+      <h1 class="text-3xl font-bold">Alek Caritg Pardo</h1>
+      <h2 class="text-xl text-blue-100">Desarrollador Web</h2>
+      <p class="text-sm text-blue-200">Curso de Tailwind CSS</p>
+    </div>
+  </header>
+
+  <main class="mt-10 w-full max-w-3xl p-8 bg-gray-800 rounded-xl shadow-md">
+    <h3 class="text-2xl font-semibold mb-6 border-b border-gray-600 pb-3">Lenguajes y tecnologías</h3>
+  
+    <!-- Lenguajes que dominas -->
+    <h4 class="text-lg font-semibold text-white mb-2">Los que uso habitualmente:</h4>
+    <div class="flex flex-wrap gap-3 text-sm mb-6">
+      <span class="bg-blue-600 text-white px-3 py-1 rounded-full shadow">HTML</span>
+      <span class="bg-blue-500 text-white px-3 py-1 rounded-full shadow">CSS</span>
+      <span class="bg-yellow-400 text-black px-3 py-1 rounded-full shadow">JavaScript</span>
+      <span class="bg-indigo-600 text-white px-3 py-1 rounded-full shadow">PHP</span>
+      <span class="bg-teal-500 text-white px-3 py-1 rounded-full shadow">MySQL</span>
+    </div>
+  
+    <!-- Lenguajes que estás aprendiendo -->
+    <h4 class="text-lg font-semibold text-white mb-2">Los que estoy mejorando y aprendiendo:</h4>
+    <div class="flex flex-wrap gap-3 text-sm">
+      <span class="bg-red-500 text-white px-3 py-1 rounded-full shadow">JavaScript</span>
+      <span class="bg-purple-600 text-white px-3 py-1 rounded-full shadow">Angular</span>
+      <span class="bg-green-400 text-white px-3 py-1 rounded-full shadow">Vue.js</span>
+      <span class="bg-blue-400 text-white px-3 py-1 rounded-full shadow">Tailwind CSS</span>
+    </div>
+  </main>
+  
+
+  <footer class="mt-auto py-6 text-sm text-gray-500">
+    Desarrollado por <span class="font-semibold text-white">AlekDevs</span>
+  </footer>
+
+</body>
+
+</html>
